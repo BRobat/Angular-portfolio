@@ -1,6 +1,13 @@
 
 .back{
     background-image: url(assets/img/solar.png);
+    animation: slide-down 1s ease-out forwards;
+    
+    
+}
+
+.blur{
+    -webkit-backdrop-filter: saturate(180%) blur(2px)
 }
 
 h1{
@@ -8,19 +15,60 @@ h1{
     animation-direction: normal;
     text-align: center;
     padding: 80px;
+    padding-top: 150px;
+    animation: fade-down 2s ease-out forwards;
+
+   
 }
 
 h2{
     text-align: center;
+    animation: fade-down 2s ease-out forwards;
 }
 
 
-.apps{
-    padding: 15vw;
+.container{
+    animation: fade-down 2s ease-in forwards;
+    padding-bottom: 200px;
+}
+
+.card-body {
+    padding-top: 100px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: grey;
+}
+
+.card-apps{
+    background-image: url(assets/img/code.png);
+    background-size: cover;
+
+}
+
+.card-music {
+    background-image: url(assets/img/guitar.png);
+    background-size: cover;
+}
+
+.card-contact{
+    background-image: url(assets/img/kurcze.jpeg);
+    background-size: cover;
 }
 
 
+@keyframes fade-down{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
-.card-text{
-    opacity: 1;
+@keyframes  slide-down{
+    0%{
+        padding-top: 5%;
+    }
+    100%{
+    }
 }

@@ -1,7 +1,13 @@
 
 nav.bg-dark{
+    -webkit-backdrop-filter: saturate(180%) blur(20px)!important;
     background-color: black!important;
+    
 }
+nav.navbar{
+    -webkit-backdrop-filter: saturate(180%) blur(20px)!important;
+}
+
 
 a.navbar-brand{
     font-weight: 600;

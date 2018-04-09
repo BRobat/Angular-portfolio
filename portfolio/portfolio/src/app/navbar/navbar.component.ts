@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
   title = "Bart Robat"
-  isCollapsed = true;
+  isCollapsed = false;
   toggleCollapsed(): void {
     this.isCollapsed = !this.isCollapsed;
   }
