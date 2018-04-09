@@ -1,15 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600');
+
 
 
 body {
     padding-top: 50px;
-    
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+    padding: 5vw;
+    font-weight: 500!important;
+    font-size: 48px;
+}
+
+h2 {
+    padding: 5vw;
+    font-weight: 400!important;
+    font-size: 30px;
 }
 
 .container{
-    padding-top: 60px;
+    padding-top: 5vh;
+    font-weight: 300!important;
 }
 
 .card-body{
@@ -24,5 +39,5 @@ body {
     background-position-x: 50%;
     color: white;
 
-   font-family: 'Lato', sans-serif;
+
 }
